@@ -8,4 +8,6 @@ hum_03 = 13
 
 print(hum_01 + hum_02 + hum_03)
 
-print(114 / 3)
+aver_age = hum_01 + hum_02 + hum_03
+
+print(aver_age / 3)
