@@ -6,5 +6,7 @@
 firstname = "Александр"
 lastname = "Менделев"
 age = '24'
-print(f'Привет, меня зовут {firstname} {lastname} мне {age} лет')
-print(len(f'Привет, меня зовут {firstname} {lastname} мне {age} лет'))
+full_text = f'Привет, меня зовут {firstname} {lastname} мне {age} лет'
+
+print(full_text)
+print(len(full_text))
