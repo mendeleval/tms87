@@ -4,3 +4,4 @@ my_listt = [1, 2, "333", "444", 5, 666, 777]
 print(my_listt[3])
 print(my_listt[5])
 print(my_listt[6])
+
