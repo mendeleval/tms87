@@ -7,5 +7,5 @@ print('Введите два числа: ')
 
 first_number = int(input())
 second_number = int(input())
-
-print(first_number + second_number)
+result = first_number + second_number
+print(f'{first_number} плюс {second_number} равно {result}')

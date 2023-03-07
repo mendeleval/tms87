@@ -3,7 +3,7 @@
 cube_edge_length = 40
 
 # Объем куба v
-v_cube = cube_edge_length * cube_edge_length * cube_edge_length
+v_cube = cube_edge_length ** 3
 print(v_cube)
 
 # Площадб всех поверхностей куба s

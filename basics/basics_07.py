@@ -7,5 +7,5 @@ y = 20
 a = abs(x)
 b = abs(y)
 
-print(a - b / 1 + a * b)
+print((a - b) / (1 + (a * b)))
 
