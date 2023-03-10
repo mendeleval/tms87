@@ -4,3 +4,12 @@
 # (подсказка: для получения центральной буквы, найдите длину строки и разделите ее пополам.
 # Для создания результирующий строки используйте срез)
 
+my_str = input('enter str - ')
+
+my_str_01 = my_str[:len(my_str) // 2]
+my_str_02 = my_str[len(my_str) // 2:]
+
+if len(my_str_02) % 2 != 0:
+    print(my_str_02[0:1])
+if not my_str_02[0:1] == my_str[1]:
+    print(my_str[1:len(my_str) - 1])
