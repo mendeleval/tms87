@@ -6,7 +6,6 @@ n = int(input('Размер матрицы: '))
 matrix = []
 for i in range(n):
     matrix.append([randint(1, 9)] * n)
-
 print(matrix)
 
 
