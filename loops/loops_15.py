@@ -17,7 +17,7 @@ while number_attempts != 0:
     if your_number < random_number:
         print('need more')
         number_attempts = number_attempts - 1
-        print(number_attempts)
+        print('attempts left -', number_attempts)
     if your_number > random_number:
         print("need less")
         number_attempts = number_attempts -1
