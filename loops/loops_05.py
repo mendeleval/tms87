@@ -8,5 +8,3 @@ while my_num <= numbers:
     my_sum += my_num ** 3
     my_num += 1
 print(my_sum)
-
-#Cделал но не понял
