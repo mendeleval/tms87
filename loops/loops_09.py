@@ -17,3 +17,5 @@ for i in range(len(matrix)):
     print()
 
 # сделал но не понял
+
+

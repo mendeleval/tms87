@@ -4,11 +4,11 @@
 count = 0
 while True:
     number = (input('num - '))
+    if number == 'стоп':
+        break
     if int(number) % 5 == 0:
         print(count)
         continue
     if number != 'стоп':
         count = count + int(number)
         print(count)
-    else:
-        break
