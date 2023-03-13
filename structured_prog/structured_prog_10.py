@@ -6,3 +6,7 @@
 #
 # предоставить 2 решения. Одно с использованием цикла while, другое с использованием цикла for с параметром.
 # Оба решения предоставить в одном файле.
+
+my_dict = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
+my_dict_keys = my_dict.keys()
+print(my_dict_keys)
