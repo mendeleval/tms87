@@ -10,11 +10,7 @@ for i in range(n):
     for j in range(n):
         column.append(randint(1, 9))
     matrix.append(column)
-
-for i in range(len(matrix)):
-    for j in range(len(matrix[i])):
-        print(matrix[i][j], end=' ')
-    print()
+    print(*column)
 
 # сделал но не понял
 
