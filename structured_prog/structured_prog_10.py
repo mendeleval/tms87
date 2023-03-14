@@ -9,4 +9,5 @@
 
 my_dict = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
 my_dict_keys = my_dict.keys()
-print(my_dict_keys)
+
+for i in my_dict_keys:
