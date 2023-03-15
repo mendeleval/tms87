@@ -7,7 +7,35 @@
 # предоставить 2 решения. Одно с использованием цикла while, другое с использованием цикла for с параметром.
 # Оба решения предоставить в одном файле.
 
-my_dict = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
-my_dict_keys = my_dict.keys()
+my_dict = {
+    'test': 'test_value',
+    'europe': 'eur',
+    'dollar': 'usd',
+    'ruble': 'rub'
+}
 
-for i in my_dict_keys:
+for key, value in list(my_dict.items()):
+    new_key = key + str(len(key))
+    my_dict.update({new_key: value})
+    my_dict.pop(key)
+
+print(my_dict)
+
+# //////////////////// - while
+
+my_dict = {
+    'test': 'test_value',
+    'europe': 'eur',
+    'dollar': 'usd',
+    'ruble': 'rub'
+}
+
+keyList = list(my_dict.keys())
+counter = 0
+
+while counter != len(keyList):
+    s = keyList[counter] + str(len(keyList[counter]))
+    my_dict.update({s: d[keyList[counter]]})
+    my_dict.pop(keyList[counter])
+    counter += 1
+print(d)
