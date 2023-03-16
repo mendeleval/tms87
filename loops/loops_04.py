@@ -9,6 +9,6 @@ while True:
     if int(number) % 5 == 0:
         print(count)
         continue
-    if number != 'стоп':
+    else:
         count = count + int(number)
         print(count)
