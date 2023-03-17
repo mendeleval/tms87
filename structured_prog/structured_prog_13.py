@@ -3,8 +3,24 @@
 # а также на ввод Y=0 при делении. Организовать возможность многократных вычислений без перезагрузки программа
 # (т.е. построить бесконечный цикл). В качестве символа прекращения вычислений принять ‘0’ (т.е. sign='0').
 
-x = int(input('enter x - '))
-
-
-
-print(f'Z = {x}')
+while True:
+    sign = input('sign -')
+    if sign == "0":
+        print('the end')
+        break
+    elif sign not in ('+', '–', '/', '*'):
+        print('wrong sign try again')
+        continue
+    x = int(input('x ='))
+    y = int(input('y ='))
+    if sign == '+':
+        print(f'x + y = {x + y}')
+    if sign == '-':
+        print(f'x - y = {x - y}')
+    if sign == '/':
+        if y == 0:
+            print('Так низя')
+            continue
+        print(f'x / y = {x / y}')
+    if sign == '*':
+        print(f'x * y = {x * y}')
