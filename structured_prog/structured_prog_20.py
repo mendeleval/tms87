@@ -2,4 +2,4 @@
 
 my_str = list(input('enter str - ').split(' '))
 print(*my_str)
-print(*my_str[::-1])
+print(*my_str[::- 1])

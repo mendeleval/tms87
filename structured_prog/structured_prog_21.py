@@ -13,6 +13,6 @@ m = int(input('enter number for m - '))
 n = int(input('enter number for n - ')) + 1
 numbers = list(range(m, n, 1))
 
-
+for num, num1 in numb
 
 print(numbers)

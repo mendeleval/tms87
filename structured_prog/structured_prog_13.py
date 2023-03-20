@@ -24,3 +24,4 @@ while True:
         print(f'x / y = {x / y}')
     if sign == '*':
         print(f'x * y = {x * y}')
+
