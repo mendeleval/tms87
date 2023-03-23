@@ -4,7 +4,7 @@
 
 def my_func(**kwargs):
     for key, value in kwargs.items():
-        if len(key) % 2 != 0:
+        if len(key) % 2 == 0:
             print(kwargs[key])
 
 

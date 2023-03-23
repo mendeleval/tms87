@@ -5,7 +5,12 @@ def factorial(n):
     desired = 1
     for i in range(1, n + 1):
         desired *= i
-    print(desired)
+    return desired
 
 
-factorial(int(input('enter number - ')))
+def main():
+    print(factorial(int(input('enter num - '))))
+
+
+if __name__ == "__main__":
+    main()

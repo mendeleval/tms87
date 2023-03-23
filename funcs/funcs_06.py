@@ -10,4 +10,4 @@ def my_func(*args):
     print(f'max - {max_arg}')
 
 
-my_func(2, 3, 4, 5)
+my_func(1, 2, 3, 4)
