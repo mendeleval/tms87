@@ -10,17 +10,17 @@ from random import randint
 
 def create_matrix(n):
     arr = []
-    for i in arr:
-        arr_in = []
-        for j in arr_in:
-            arr.append(randint(0, 9))
-        arr.append(arr_in)
+    for i in range(n):
+        column = []
+        for j in range(n):
+            column.append(randint(1, 9))
+        arr.append(column)
     return arr
 
 
 def print_matrix(arr):
     for num in arr:
-        print(*arr)
+        print(arr)
 
 
 # def sum_matrix(arr: list) -> int:
@@ -40,12 +40,13 @@ def print_matrix(arr):
 
 
 def main():
-    arr = create_matrix(5)
-    print_matrix(arr)
+    create_matrix(4)
+    print_matrix()
     # print(sum_matrix(arr))
     # print(max_matrix(arr))
     # print(min_matrix(arr))
     #
+
 
 if __name__ == "__main__":
     main()
